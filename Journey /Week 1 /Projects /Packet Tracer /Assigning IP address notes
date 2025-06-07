@@ -13,4 +13,12 @@ Steps involved
 3) The server is assigned with a deault IP address(IPv4) 192.168.0.1 with a subnet masking 255.255.255.0 and the DHCP server starting IP is assigned to 192.168.0.100
 4) Once the laptop is connected to the network, using the DCHP service from the server IP is assigned to laptop.
 
+Router configuration commands
+-----------------------------
+1) En - Enabling the router
+2) Router t - configurng the router
+3) ipaddress 192.168.0.1 255.255.255.0 - Give the Ip address and subnet mask
+4) No shut - this command makes the router port active
+
+
 
