@@ -1,0 +1,16 @@
+# Assinging Ip address to the Laptop connected to the network
+--------------------------------------------------------------
+
+# The class is about how an IP address is assigned to laptop when its connected to the network.
+# The  network has a Basic router,Switch, server and Laptop
+# Default IP address used - 192.168.0.1
+# DCHP starting IP address - 192.168.0.100
+
+Steps involved
+--------------
+1) The router is configured with the IP address 192.168.0.1 with a subnet masking 255.255.255.0
+2) There is no configuration needed for switch 
+3) The server is assigned with a deault IP address(IPv4) 192.168.0.1 with a subnet masking 255.255.255.0 and the DHCP server starting IP is assigned to 192.168.0.100
+4) Once the laptop is connected to the network, using the DCHP service from the server IP is assigned to laptop.
+
+
