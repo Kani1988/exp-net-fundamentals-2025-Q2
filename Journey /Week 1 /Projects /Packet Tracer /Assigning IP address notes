@@ -3,8 +3,8 @@
 
 # The class is about how an IP address is assigned to laptop when its connected to the network.
 # The  network has a Basic router,Switch, server and Laptop
-# Default IP address used - 192.168.0.1
-# DCHP starting IP address - 192.168.0.100
+# Default IP address used - 192.168.0.1 subnet mask 255.255.255.0
+# DCHP starting IP address - 192.168.0.100 subnet mask 255.255.255.0
 
 Steps involved
 --------------
